@@ -1,0 +1,118 @@
+/* Sidebar Styling */
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, rgb(28, 28, 145), rgb(42, 42, 189));
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sidebar .nav-link {
+  width: 100%;
+  color: white;
+  font-size: 1.1rem;
+  padding: 15px 20px;
+  transition: background 0.3s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#sidebar .nav-link i {
+  font-size: 1.5rem;
+}
+
+#sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+
+#sidebar .nav-link.active {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+#sidebar p {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  color: #d1d1d1;
+}
+
+/* Adjust main content */
+.main {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.navbar {
+  background: linear-gradient(to right, rgb(28, 28, 145), rgb(42, 42, 189));
+}
+
+.header {
+  background: linear-gradient(to left, rgb(42, 42, 189), rgb(50, 50, 221));
+}
+
+.main {
+  height: 100vh;
+}
+
+.card-item i {
+  font-size: 5rem;
+}
+
+.card-item {
+  transition: transform 0.4s ease;
+  -webkit-transition: transform 0.4s ease;
+  -moz-transition: transform 0.4s ease;
+  -ms-transition: transform 0.4s ease;
+  -o-transition: transform 0.4s ease;
+}
+
+.card-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.card-item p {
+  font-size: 20px;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.sidebar .nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.table-container {
+  padding: 30px;
+}
+
+.header-section {
+  background: linear-gradient(to left, rgb(42, 42, 189), rgb(50, 50, 221));
+  padding: 20px;
+  color: white;
+}
